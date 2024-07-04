@@ -1,0 +1,9 @@
+finding power
+var a=+prompt("enter the voltage: ");
+var b=+prompt("enter the current: ");
+var c=power(a,b);
+console.log(c)
+
+function power(x,y){
+return ("the power is: "+ (x*y));
+}
