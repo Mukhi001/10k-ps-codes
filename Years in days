@@ -1,0 +1,7 @@
+var age=+prompt("enter your age in years: ");
+var d=days(age);
+console.log("the days are for the years: "+ d);
+
+function days(a){
+    return Math.floor(a*365.25);
+}
