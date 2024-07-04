@@ -1,0 +1,7 @@
+var a =+prompt("enter a number: ");
+var b=incr(a);
+console.log("the number after increment is : " +b);
+
+function incr(c){
+    return ++c;
+}
