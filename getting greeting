@@ -1,0 +1,7 @@
+var s=prompt("enter some string: ");
+var a=str(s);
+console.log(a);
+
+function str(b){
+    return "welcome "+b;
+}
