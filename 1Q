@@ -1,0 +1,9 @@
+addtion of 2 numbers using functions
+
+var a=+prompt("enter the first number: ");
+var b=+prompt("enter the second number: ");
+add(a,b);
+
+function add(c,d){
+    console.log("the addition of two numbers: " +(c+d));
+}
