@@ -1,2 +1,7 @@
 var a=+prompt("enter the numbers of minutes: ");
-console.log("the seconds for the given minutes is: "+ (a*60));
+var c=min(a);
+console.log(c)
+
+function min(b){
+return ("the seconds for the given minutes is: "+ (b*60));
+}
