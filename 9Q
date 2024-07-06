@@ -1,0 +1,4 @@
+var a=prompt("enter the string: ");
+
+var b = (c)=>"welcome "+c;
+console.log(b(a))
