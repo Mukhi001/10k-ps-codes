@@ -1,0 +1,5 @@
+var a=[1,2,3,4,5,3,2,1,10,54,90];
+for(let i=0;i<a.length;i++){
+    a.sort()
+}
+console.log(a[a.length-2])
