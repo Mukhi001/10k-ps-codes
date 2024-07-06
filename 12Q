@@ -1,0 +1,21 @@
+maximum element in a array and keeping the element in array
+
+var a =[[1,2,3,10,3,2],[2,3,4,2,3,41,6,75,9]];
+var b=[];
+var count=0;
+
+for(let i=0;i<a.length;i++){
+    var c=max(a[i]);
+    b[count++]=c;
+}
+console.log(b)
+
+function max(z){
+    var ma=0;
+    for(let x=0;x<z.length;x++){
+        if(z[x]>ma){
+            ma=z[x];
+        }
+    }
+    return ma;
+}
