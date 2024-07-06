@@ -1,0 +1,17 @@
+Create a function that takes two strings as arguments and returns the number of times the first string (the single character) is found in the second string.
+Example:charCount("c", "Chamber of secrets") ➞ 1
+
+var a =prompt("enter the first string: ").split("");
+var b=prompt("enter the second string you want to find: ")
+var c=cou(a,b)
+console.log(c);
+
+function cou(x,y){
+var count=0;
+for(let i=0;i<x.length;i++){
+    if(x[i]==y){
+        count++;
+    }
+}
+return count;
+}
