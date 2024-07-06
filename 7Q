@@ -1,0 +1,15 @@
+Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.
+
+var a=+prompt("enter the first number: ");
+var b=+prompt("enter the second number: ");
+var c=ans(a,b);
+console.log(c)
+
+function ans(d,e){
+    if((d==10 || e==10) || ((d+e)==10)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
