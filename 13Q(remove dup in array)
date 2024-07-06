@@ -1,0 +1,20 @@
+var a=[1,2,3,4,1,2,3,4];
+var b=[];
+var count=0;
+for(let i=0;i<a.length;i++){
+var c=dup(b,a[i])
+if(c==0){
+    b[count++]=a[i];
+}
+}
+console.log(b);
+
+function dup(c,d){
+    var co=0;
+    for(let j=0;j<c.length;j++){
+        if(c[j]==d){
+            co++;
+        }
+    }
+    return co++;
+}
