@@ -1,0 +1,13 @@
+var a=prompt("enter the first string: ");
+var b=prompt("enter the second string: ");
+var c=comp(a,b);
+console.log(c);
+
+function comp(d,e){
+    if(d.length==e.length){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
