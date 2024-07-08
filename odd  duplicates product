@@ -1,0 +1,21 @@
+var a="12345673333555";
+var obj={};
+for(i of a){
+   if(!obj[i]){
+       obj[i]=1;
+   } 
+   else{
+       obj[i]++
+   }
+}
+console.log(obj);
+var pro=1;
+for(j in obj){
+    var x=Number(j);
+    if(x%2==1){
+       if(obj[j]>1){
+           pro*=x;
+       } 
+    }
+}
+console.log(pro)
