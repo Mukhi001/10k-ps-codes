@@ -1,0 +1,8 @@
+var n=+prompt("enter some number: ");
+mul(n);
+
+function mul(n){
+    for(let i=1;i<=n;i++){
+        console.log(i*2);
+    }
+}
