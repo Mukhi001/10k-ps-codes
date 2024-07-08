@@ -18,3 +18,17 @@ function dup(c,d){
     }
     return co;
 }
+
+approach 2: counting the elements and keeping in the object.
+
+var a=prompt("enter the string: ");
+res={};
+for(i of a){
+    if(!res[i]){
+        res[i]=1
+    }
+    else{
+    res[i]++
+    }
+}
+console.log(res)
