@@ -1,0 +1,12 @@
+
+var a=prompt("enter the string: ").split("");
+var b="";
+for(let i=0;i<a.length;i++){
+    if(a[i].toUpperCase()==a[i]){
+        b+=a[i].toLowerCase()
+    }
+    else{
+        b+=a[i].toUpperCase();
+    }
+}
+console.log(b)
