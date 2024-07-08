@@ -1,0 +1,5 @@
+var a =+prompt("enter the first value: ");
+var b=+prompt("enter the second value: ");
+var c=+prompt("enter the third value: ");
+var d=((a>b)&&(a>c))?"a is bigger":(b>c)?"b is bigger":(a==b && b==c)?"all are equal":"c is bigger"
+console.log(d)
